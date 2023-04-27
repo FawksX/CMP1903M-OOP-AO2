@@ -11,21 +11,10 @@ namespace CMP1903M_A02_2223.Game;
  * <see cref="AdvancedGame"/>
  * </summary>
  */
-public abstract class AbstractGame {
-
-    /**
-     * <summary>
-     * Runs the game as a new instance
-     * </summary>
-     */
-    public void RunGame() => RunGame(0);
+public abstract class AbstractGame : IGame {
     
-    /**
-     * <summary>
-     * Runs a new operator scene using the new score of the user, defined in <see cref="HandleRoundOver"/>.
-     * This is implemented individually based on the game, as you can have either two or three card games.
-     * </summary>
-     */
+    public void RunGame() => RunGame(0);
+
     public abstract void RunGame(int score);
     
     /**
