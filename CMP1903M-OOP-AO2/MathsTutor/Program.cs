@@ -40,7 +40,7 @@ class Program {
             "1. Application Instructions",
             "2. Run Application (2 cards, 1 point per right answer)",
             "3. Run Application (3 cards, 2 points per right answer)",
-            "5. Quit Application",
+            "4. Quit Application",
             "5. Leaderboard"
         );
 
